@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function BrandA() {
   return (
     <div>
-      <h3>This is our blog</h3>
+      <h1>Brand A</h1>
       <ul>
         <li>
           <Link href="/post/1">Post 1</Link>
