@@ -24,6 +24,14 @@ const nextConfig = {
         source: '/brand-a/:path*',
         destination: `/brand-a/:path*`,
       },
+      {
+        source: '/brand-b',
+        destination: `${BRAND_URL}/brand-b`,
+      },
+      {
+        source: '/brand-b/:path*',
+        destination: `/brand-b/:path*`,
+      },
     ]
   },
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function BrandA() {
+export default function BrandB() {
   return (
     <div>
       <h1>Brand B</h1>
