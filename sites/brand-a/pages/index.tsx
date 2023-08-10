@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Blog() {
+export default function BrandA() {
   return (
     <div>
       <h3>This is our blog</h3>

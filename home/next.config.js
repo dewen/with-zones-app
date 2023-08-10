@@ -1,4 +1,4 @@
-const { BLOG_URL } = process.env
+const { BLOG_URL, BRAND_URL } = process.env
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,6 +15,14 @@ const nextConfig = {
       {
         source: '/blog/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
+      },
+      {
+        source: '/brand-a',
+        destination: `${BRAND_URL}/brand-a`,
+      },
+      {
+        source: '/brand-a/:path*',
+        destination: `/brand-a/:path*`,
       },
     ]
   },
